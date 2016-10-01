@@ -26,7 +26,7 @@ class CarSpec: QuickSpec {
                     expect(car.maxSpeed).to(beCloseTo(130.0))
                     expect(car.speed).to(beCloseTo(0.0))
                     expect(car.heading).to(beCloseTo(0.0))
-                    expect(car.transmission).to(equal(Transmission.Automatic))
+                    expect(car.transmission).to(equal(Car.Transmission.Automatic))
                     expect(car.cylinders).to(equal(6))
                     expect(car.milesPerGallon).to(equal(24.0))
                 }

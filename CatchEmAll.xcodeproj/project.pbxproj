@@ -24,6 +24,10 @@
 		B79C20E11D6975C100F9512A /* JetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20E01D6975C100F9512A /* JetSpec.swift */; };
 		B7A7166F1D695F45004D395D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A7166E1D695F45004D395D /* Vehicle.swift */; };
 		B7A716711D695F59004D395D /* VehicleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A716701D695F59004D395D /* VehicleSpec.swift */; };
+		BBA9E9D21D9F752C00200C5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC00781D4FD23F000E0B72 /* AppDelegate.swift */; };
+		BBA9E9D31D9F753100200C5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC007A1D4FD23F000E0B72 /* ViewController.swift */; };
+		BBA9E9D41D9F757500200C5F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC00841D4FD23F000E0B72 /* Info.plist */; };
+		BBA9E9D51D9F757500200C5F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC00841D4FD23F000E0B72 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -227,9 +231,11 @@
 				TargetAttributes = {
 					5BBC00741D4FD23F000E0B72 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					5BBC00881D4FD23F000E0B72 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 5BBC00741D4FD23F000E0B72;
 					};
 				};
@@ -258,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA9E9D41D9F757500200C5F /* Info.plist in Resources */,
 				5BBC00831D4FD23F000E0B72 /* LaunchScreen.storyboard in Resources */,
 				5BBC00801D4FD23F000E0B72 /* Assets.xcassets in Resources */,
 				5BBC007E1D4FD23F000E0B72 /* Main.storyboard in Resources */,
@@ -268,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA9E9D51D9F757500200C5F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,8 +393,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA9E9D21D9F752C00200C5F /* AppDelegate.swift in Sources */,
 				B79C20E11D6975C100F9512A /* JetSpec.swift in Sources */,
 				B7A716711D695F59004D395D /* VehicleSpec.swift in Sources */,
+				BBA9E9D31D9F753100200C5F /* ViewController.swift in Sources */,
 				B79C20DD1D696DDC00F9512A /* PlaneSpec.swift in Sources */,
 				B79C20D91D6968A700F9512A /* RaceCar.swift in Sources */,
 				B79C20D51D69668F00F9512A /* CarSpec.swift in Sources */,
@@ -515,6 +525,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.CatchEmAll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -527,6 +538,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.CatchEmAll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -541,6 +553,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.CatchEmAllTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchEmAll.app/CatchEmAll";
 			};
 			name = Debug;
@@ -555,6 +568,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.CatchEmAllTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchEmAll.app/CatchEmAll";
 			};
 			name = Release;

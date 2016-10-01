@@ -26,7 +26,7 @@ class RaceCarSpec: QuickSpec {
                     expect(car.maxSpeed).to(beCloseTo(240.0))
                     expect(car.speed).to(beCloseTo(0.0))
                     expect(car.heading).to(beCloseTo(0.0))
-                    expect(car.transmission).to(equal(Transmission.Manual))
+                    expect(car.transmission).to(equal(Car.Transmission.Manual))
                     expect(car.cylinders).to(equal(6))
                     expect(car.milesPerGallon).to(beCloseTo(1.92))
                     expect(car.driver).to(equal("Driver McDriverson"))
